@@ -358,11 +358,12 @@
         <div class="calendar-head">Тамыз 2026</div>
         <div class="calendar-grid">
           <div class="day-name">Дс</div><div class="day-name">Сс</div><div class="day-name">Ср</div><div class="day-name">Бс</div><div class="day-name">Жм</div><div class="day-name">Сб</div><div class="day-name">Жс</div>
-          <div></div><div></div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
-          <div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div class="active-day">12</div>
-          <div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div><div>19</div>
-          <div>20</div><div>21</div><div>22</div><div>23</div><div>24</div><div>25</div><div>26</div>
-          <div>27</div><div>28</div><div>29</div><div>30</div><div>31</div>
+          <div></div><div></div><div></div><div></div><div></div><div class="active-day">1</div><div>2</div>
+          <div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div>
+          <div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div>
+          <div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div>
+          <div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div>
+          <div>31</div><div></div><div></div><div></div><div></div><div></div><div></div>
         </div>
       </div>
       <div class="time-badge">Басталуы: 16:00</div>
@@ -388,7 +389,7 @@
       <p class="muted">Сіздерді асыға күтеміз!</p>
       
       <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="f33a55d7-91d8-4891-b29c-5c47c49433a4">
+        <input type="hidden" name="access_key" value="80c2a65f-c5fa-4c98-88c1-7d7608976872">
         
         <input type="hidden" name="subject" value="Жаңа жауап: Асан & Айдана Той">
         <input type="hidden" name="from_name" value="Той Шақыру">
@@ -487,7 +488,7 @@
     createFireflies();
 
     // Таймер
-    const targetDate = new Date('July 12, 2026 16:00:00').getTime();
+    const targetDate = new Date('August 1, 2026 16:00:00').getTime();
     function updateCountdown() {
       const now = new Date().getTime();
       const diff = targetDate - now;
